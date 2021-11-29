@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jomhuria&display=swap');
+
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+body{
+  background-color: #eeeeee; 
+}
+footer{
+  padding: 3rem 2rem 3rem 2rem;
+}
+
+section{
+  background-color: #eeeeee!important; 
+  width: 1200px ;
+  padding:0rem;
+}
+.maxw{
+  width: 1200px;
+  padding: 2rem 0rem 2rem 0rem;
+}
+
+
+/* ------------------ DIPOSICIÓN FLEX ------------------- */
+    .flex_grow{
+      flex-grow: 0;
+    }    
+    .flex_grow1{
+      flex-grow: 1;
+    }
+
+    .flex_grow2{
+      flex-grow: 2;
+    }
+    .flex_grow3{
+      flex-grow: 3;
+    }
+
+    .flex_row{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .flex_col{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .flex_item_centrado{
+      align-items: center;
+      align-content: stretch;
+    }
+
+    .centrar{
+      display:flex;
+      flex-direction:row;
+      flex-wrap: nowrap ;
+      justify-content: center;
+      align-items: flex-start;
+      align-content: stretch;
+    }
+    .flex_derecha{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-end;
+      align-content: flex-end;
+      align-items: flex-end;
+      margin: 0rem;
+      padding: 0rem;
+    }
+
+    .espaciado{
+      display: flex;
+      justify-content: flex-end;
+      align-content: stretch;
+      align-items: center;
+      margin: 0rem;
+    }
+    .espacio_igual{
+      display: flex;
+      margin:0rem;
+      padding: 0rem;
+      justify-content: space-around;
+      align-content: flex-start;
+    }
+
+
+/* ---------------type style---------------- */
+    h1 {
+        font-family: 'Jomhuria', sans-serif;
+        font-size: 6em;
+        line-height: 0.6em;
+        text-align: left;
+        letter-spacing: 0.05em;
+        vertical-align: top;
+        color: #FFF;
+        /* font-style: cursive;    */
+    }
+    h2{
+        font-family: 'Jomhuria', sans-serif;
+        font-size: 6.688em;
+        line-height: 0.6em;
+        text-align: left;
+        letter-spacing: 0.025em;
+        vertical-align: top;
+        color: #5b5198;  
+    }
+
+    h3{
+        font-family: 'Inter', sans-serif;
+        font-size: 1.25em;
+        line-height: 1em;
+        text-align: left;
+        letter-spacing: 0.025em;
+        vertical-align: top;
+        color: #ffffff;
+        }
+    h4{
+      font-family: 'Jomhuria', sans-serif;
+      font-size: 3.5em;
+      line-height: 0.6em;
+      text-align: left;
+      letter-spacing: 0.03em;
+      vertical-align: top;
+      }
+
+    p{
+        font-family: 'Inter', sans-serif;
+        font-size: 1.063em;
+        line-height: 1.2em;
+        text-align: left;
+        vertical-align: top;
+    }
+    h5{
+      font-family: 'Inter', sans-serif;
+      font-size: 1.3rem;
+      line-height: 1.2em;
+      width: 10rem;
+    }
+/* ---- color---- */
+    .pc_t_orange{
+      color: #FEB100;
+    }
+    .pc_t_purple{
+      color: #5b5198;
+    }
+    .nc_t_white{
+      color: white;
+    }
+    .tc_t_blue{
+      color: #1F313D;
+    }
+    .c_b_blue{
+      background-color: #1F313D;
+    }
+
+
+/* ---------------BUTTON----------- */
+    .button_s{
+        /* position: absolute; */
+        font-family: 'Inter';
+        font-weight: 900;
+        background: #FEB100;
+        border-radius: 4px;
+        border-color: none;
+        padding: 0.5rem 2rem;
+        border: none;
+        margin-left: 0rem;
+        /* margin: 0.3rem; */
+         /*alarga el boton al ancho del contenedor  */
+
+    }
+
+    .button_xxl{ 
+      font-family: 'Inter';
+      font-weight: 900;
+      background: #FEB100;
+      border-radius: 4px;
+      border-color: none;
+      padding: 0.7rem 2rem;
+      margin: 0rem;
+      border: none;
+    }
+
+  /*  ------------- ENLACES------------ */
+      a{
+          font-family: Inter;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 1.25em;
+          line-height:1.5em;
+          
+          text-decoration-line: none;
+          color: #FF3369;
+      }
+      a:hover {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 1.25em;
+          line-height:1.5em;
+          text-decoration-line: none;
+          color: #00cca3;
+      }
+      a:visited {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 1.25em;
+          line-height:1.5em;
+          text-decoration: none;
+          text-decoration-line: underline;
+          color: #00cca3;
+      } 
+
+/*  ---------- OTROS ----------- */
+
+      figcaption{
+        padding: 0.6rem 0rem;
+      }
+      form{
+        margin-left: 0em;
+      }
+
+      ol, ul {
+        list-style: none;
+      }
+      blockquote, q {
+        quotes: none;
+      }
+      blockquote:before, blockquote:after,
+      q:before, q:after {
+        content: '';
+        content: none;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+
+
+

@@ -1,0 +1,92 @@
+
+#header01{
+    color: #ffffff;
+    background-image: url('../img/2111-section01-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    margin: 0rem;
+    padding: 7rem 5rem 7rem 5rem; 
+
+}
+
+.item_centrar6{
+  width:600px; 
+  margin: 0em;
+}
+
+.item_centrar5{
+  width:500px; 
+  padding: 0em;
+  margin: 0em;
+}
+.item_centrar3{
+  width:300px;
+  margin-top: 0em;
+ 
+}
+
+
+
+#menu01{
+  background-color: #1F313D;
+  color:#fff;
+  padding: 1rem;
+  margin: 0rem;
+  
+}
+  nav {
+    background-color: #1F313D;
+    position: relative;
+    color:#fff;
+    padding: 0rem;
+    margin: 0rem;
+  }
+
+#section01{
+  padding: 1rem 0 1rem 0;
+}
+
+#cat01{
+  padding: 0rem;
+  margin: 1rem;
+}
+
+div>article{
+  background-color: #fff;
+  border-radius: 9rem;
+}
+
+#poster> div{
+ width:300px;
+ margin:0;
+ padding: 0rem;
+}
+#poster{
+  padding: 2rem 3rem 2rem 3rem;
+  align-items: flex-start;
+}
+
+.txt_xl{
+  font-size: 9rem;
+  line-height: 6rem;
+  letter-spacing: 0.05em;
+}
+#sobrevivir{
+    color: #ffffff;
+    background-image: url('../img/2111-section05-zombie.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0em;
+    padding: 5rem 3rem; 
+}
+
+.txt_title_footer{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25em;
+  line-height: 1em;
+  margin-left: 0em;
+  letter-spacing: 0.025em;
+  font-weight: 900;
+  vertical-align: top;
+  color: #ffffff;
+}
